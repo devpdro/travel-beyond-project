@@ -2,6 +2,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGtlbnlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
   height: 100vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
@@ -38,6 +39,7 @@
       display: flex;
       justify-content: space-around;
       margin-top: 3.5rem;
+      padding: 0 1rem 0 1rem;
 
       .box_icons {
         background-color: #00000077;
@@ -50,7 +52,6 @@
           width: 30px;
           height: 30px;
           margin-bottom: 0;
-
         }
 
         h4 {

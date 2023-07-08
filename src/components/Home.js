@@ -8,7 +8,7 @@ import { AiOutlineCamera } from "react-icons/ai";
 
 function Home() {
   return (
-    <div className={styles.container}>
+    <header className={styles.container}>
       <div className={styles.text_container}>
         <h1>Pesquisar tour no próximo Feriado</h1>
         <p>Confira nossas melhores promoções</p>
@@ -34,7 +34,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 

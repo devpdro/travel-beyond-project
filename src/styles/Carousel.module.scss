@@ -1,0 +1,28 @@
+.carousel {
+  position: relative;
+
+  .arrow_prev {
+    position: absolute;
+    left: 0;
+    border-radius: 20px;
+    bottom: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+  }
+  .slide {
+    width: 100%;
+    height: 55vh;
+   
+  }
+
+  .arrow_next {
+    position: absolute;
+    right: 0;
+    border-radius: 20px;
+    bottom: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+  }
+}

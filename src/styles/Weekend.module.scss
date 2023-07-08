@@ -9,33 +9,35 @@
   background-size: cover;
   margin-bottom: 4rem;
   display: grid;
+  background-attachment: fixed;
   place-items: center;
 
   div {
-      display: grid;
-  place-items: center;
+    display: grid;
+    place-items: center;
     h1 {
       color: #fff;
       font-weight: 900;
+      margin-top: 0;
+      margin-bottom: 1rem;
       font-size: 2.3rem;
 
       span {
-        border-bottom: 5px solid #DB8A73;
+        border-bottom: 5px solid #db8a73;
       }
     }
 
     input {
-
-        margin-left: 1.4rem;
-        color: #DB8A73;
-        background-color: #fff;
-        border-radius: 25px;
-        font-size: 1rem;
-        padding: 1rem 1rem 1rem 1rem;
-        font-weight: 600;
-        text-align: center;
-        border: none;
-        outline: none;
+      margin-top: 0;
+      color: #db8a73;
+      background-color: #fff;
+      border-radius: 25px;
+      font-size: 1rem;
+      padding: 1rem 1rem 1rem 1rem;
+      font-weight: 600;
+      text-align: center;
+      border: none;
+      outline: none;
     }
   }
 }

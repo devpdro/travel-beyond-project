@@ -1,5 +1,19 @@
 import styles from "../styles/Destinations.module.scss";
 
+import db from "../db.json";
+
+const formatColor = (color) => {
+  if (["black", "red", "blue", "green"].includes(color)) {
+    return color;
+  }
+
+  if (/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/i.test(color)) {
+    return color;
+  }
+
+  return "#000000";
+};
+
 function Destinations() {
   return (
     <section className={styles.container}>
@@ -10,41 +24,26 @@ function Destinations() {
         </h1>
       </div>
       <div className={styles.container_images}>
-        <div className={styles.images_box}>
-          <img
-            className={styles.images}
-            src="https://images.unsplash.com/photo-1588384244626-484b69024d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHVnYW5kYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-            alt=""
-          />
-        </div>
-        <div className={styles.images_box}>
-          <img
-            className={styles.images}
-            src="https://images.unsplash.com/photo-1588384244626-484b69024d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHVnYW5kYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-            alt=""
-          />
-        </div>
-        <div className={styles.images_box}>
-          <img
-            className={styles.images}
-            src="https://images.unsplash.com/photo-1588384244626-484b69024d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHVnYW5kYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-            alt=""
-          />
-        </div>
-        <div className={styles.images_box}>
-          <img
-            className={styles.images}
-            src="https://images.unsplash.com/photo-1588384244626-484b69024d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHVnYW5kYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-            alt=""
-          />
-        </div>
-        <div className={styles.images_box}>
-          <img
-            className={styles.images}
-            src="https://images.unsplash.com/photo-1588384244626-484b69024d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHVnYW5kYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-            alt=""
-          />
-        </div>
+        {db.box.map((item) => (
+          <div key={item.id} className={styles.images_box}>
+            <div
+              style={{
+                backgroundColor: formatColor(item.backgroundColor),
+              }}
+            >
+              <img
+                style={{
+                  opacity: item.opacity,
+                }}
+                key={item.id}
+                src={item.image}
+                alt="Imagens mostrando os destinos"
+              />
+              <h3>{item.cardHeading}</h3>
+              <p>{item.packages}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );

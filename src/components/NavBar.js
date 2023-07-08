@@ -8,10 +8,10 @@ function Navbar() {
       </div>
       <ul>
         <li>
-          <a href="#asda">Home</a>
+          <a href="#asda">Início</a>
         </li>
         <li>
-          <a href="#asda">About</a>
+          <a href="#asda">Sobre</a>
         </li>
       </ul>
     </nav>

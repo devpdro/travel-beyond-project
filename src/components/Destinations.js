@@ -5,7 +5,9 @@ function Destinations() {
     <section className={styles.container}>
       <div className={styles.text_box}>
         <h4>Nossa proposta</h4>
-        <h1>Nossos <span>destinos</span></h1>
+        <h1>
+          Nossos <span>destinos</span>
+        </h1>
       </div>
       <div className={styles.container_images}>
         <div className={styles.images_box}>

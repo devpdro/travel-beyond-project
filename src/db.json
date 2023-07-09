@@ -50,5 +50,72 @@
       "backgroundColor": "#000000",
       "opacity": "0.4"
     }
+  ],
+  "sectionPackages": [
+    {
+      "id": 1,
+      "img": "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGtlbnlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "state": "Queen Elizabeth Park",
+      "country": "Uganda",
+      "type": "Sport",
+      "price": "400 $",
+      "paragraph": "text",
+      "color": "#E7B046",
+      "text": "Details",
+      "textColor": "#fff",
+      "bg": "#E7B046"
+    },
+    {
+      "id": 1,
+      "img": "https://images.unsplash.com/photo-1596005554384-d293674c91d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8a2VueWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "state": "Nairobi",
+      "country": "Kenya",
+      "type": "Sport",
+      "price": "400 $",
+      "paragraph": "sdas",
+      "color": "#A07B5B",
+      "text": "Details",
+      "textColor": "#fff",
+      "bg": "#A07B5B"
+    },
+    {
+      "id": 1,
+      "img": "https://images.unsplash.com/photo-1575999502951-4ab25b5ca889?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8WmFuemliYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "state": "Zanzibar",
+      "country": "Tanzania",
+      "type": "Sport",
+      "price": "400 $",
+      "paragraph": "sada",
+      "color": "#3C92B6",
+      "text": "Details",
+      "textColor": "#fff",
+      "bg": "#3C92B6"
+    },
+    {
+      "id": 1,
+      "img": "https://images.unsplash.com/photo-1575999502951-4ab25b5ca889?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8WmFuemliYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "state": "Zanzibar",
+      "country": "Tanzania",
+      "type": "Sport",
+      "price": "400 $",
+      "paragraph": "sda",
+      "color": "#3C92B6",
+      "text": "Details",
+      "textColor": "#fff",
+      "bg": "#3C92B6"
+    },
+    {
+      "id": 1,
+      "img": "https://images.unsplash.com/photo-1663924665428-e5b35266f7cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU0fHxyd2FuZGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "state": "Virunga National Park",
+      "country": "Congo",
+      "type": "Sport",
+      "price": "400 $",
+      "paragraph": "sdad",
+      "color": "#96C073",
+      "text": "Details",
+      "textColor": "#fff",
+      "bg": "#96C073"
+    }
   ]
 }

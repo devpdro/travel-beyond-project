@@ -24,7 +24,7 @@ function Destinations() {
         </h1>
       </div>
       <div className={styles.container_images}>
-        {db.box.map((item) => (
+        {db.destinations.map((item) => (
           <div key={item.id} className={styles.images_box}>
             <div
               style={{

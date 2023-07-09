@@ -1,7 +1,6 @@
 .container {
   max-width: 1280px;
   margin: 5rem auto 0 auto;
-
   .text_box {
     text-align: center;
     margin-bottom: 3rem;
@@ -15,76 +14,58 @@
       color: #555;
       font-size: 2rem;
       margin-top: 0;
-
       span {
         border-bottom: 5px solid #48bf91;
       }
     }
   }
-
   .container_images {
     display: flex;
     flex-wrap: wrap;
-
     .images_box {
-      margin-right: 1rem;
-      margin-left: 1rem;
-      margin-bottom: 1.5rem;
+      margin: 0 1rem 1.5rem 1rem;
       height: 535px;
-      border: 1px solid #55555563;
+      border: 1px solid #5555554f;
       div {
         position: relative;
         height: 300px;
         width: 370px;
-
         img {
           width: 100%;
           height: 100%;
         }
-
         h3 {
+          margin: 0 0 0 0.8rem;
           font-size: 1.3rem;
           color: #555;
           margin-top: 0;
           margin-left: 0.8rem;
           margin-bottom: 0;
         }
-
         p {
           color: #555;
           font-size: 1.2rem;
-          font-weight: 550;
-          margin-top: 0;
-          margin-bottom: 0.4rem;
-          margin-left: 0.8rem;
+          margin: 0 0 0.4rem 0.8rem;
         }
-
         h4 {
-          padding-top: 0.3rem;
-          padding-bottom: 0.3rem;
-          margin-top: 0;
+          padding: 0.3rem 0 0.3rem 0;
+          margin: 0 0.8rem;
           font-size: 1.4rem;
           display: flex;
           color: #555;
           justify-content: space-between;
           align-items: center;
-          margin-bottom: 0;
           border-top: 1px solid #555;
-          margin-right: 0.8rem;
           border-bottom: 1px solid #555;
-          margin-left: 0.8rem;
-
           span {
             font-size: 1.7rem;
           }
         }
-
         .btn_details {
-          margin-left: 0.8rem;
+          margin: 0.4rem 0 0 0.8rem;
           border-radius: 20px;
           border: none;
           outline: none;
-          margin-top: 0.4rem;
           font-size: 1.1rem;
           padding: 0.7rem 1.2rem 0.7rem 1.2rem;
         }

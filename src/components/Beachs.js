@@ -24,7 +24,7 @@ function Beachs() {
             encantadora.
           </p>
           <h2>
-            <span className={styles.outline_span}>900$</span>
+            <span className={styles.outline_span}>900$</span>{" "}
             <span className={styles.money_span}>500$</span> / POR PESSOA
           </h2>
           <input type="submit" value="Comprar Passagem" />

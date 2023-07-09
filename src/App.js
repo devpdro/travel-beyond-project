@@ -1,5 +1,6 @@
 import Beachs from "./components/Beachs";
 import Destinations from "./components/Destinations";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/NavBar";
 import Packages from "./components/Packages";
@@ -19,6 +20,7 @@ function App() {
       <Weekend />
       <Beachs />
       <Packages />
+      <Footer />
     </>
   );
 }

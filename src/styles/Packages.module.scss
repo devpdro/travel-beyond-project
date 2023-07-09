@@ -25,15 +25,16 @@
   .container_images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
     .images_box {
       margin-right: 1rem;
       margin-left: 1rem;
       margin-bottom: 1.5rem;
-
+      height: 535px;
+      border: 1px solid #55555563;
       div {
         position: relative;
-        height: 470px;
+        height: 300px;
         width: 370px;
 
         img {
@@ -42,19 +43,50 @@
         }
 
         h3 {
-          position: absolute;
-          bottom: 15px;
-          left: 20px;
-          color: #fff;
-          font-size: 1.7rem;
+          font-size: 1.3rem;
+          color: #555;
+          margin-top: 0;
+          margin-left: 0.8rem;
+          margin-bottom: 0;
         }
 
         p {
-          position: absolute;
-          bottom: 2px;
-          left: 20px;
-          color: #fff;
+          color: #555;
           font-size: 1.2rem;
+          font-weight: 550;
+          margin-top: 0;
+          margin-bottom: 0.4rem;
+          margin-left: 0.8rem;
+        }
+
+        h4 {
+          padding-top: 0.3rem;
+          padding-bottom: 0.3rem;
+          margin-top: 0;
+          font-size: 1.4rem;
+          display: flex;
+          color: #555;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 0;
+          border-top: 1px solid #555;
+          margin-right: 0.8rem;
+          border-bottom: 1px solid #555;
+          margin-left: 0.8rem;
+
+          span {
+            font-size: 1.7rem;
+          }
+        }
+
+        .btn_details {
+          margin-left: 0.8rem;
+          border-radius: 20px;
+          border: none;
+          outline: none;
+          margin-top: 0.4rem;
+          font-size: 1.1rem;
+          padding: 0.7rem 1.2rem 0.7rem 1.2rem;
         }
       }
     }

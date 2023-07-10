@@ -36,7 +36,7 @@ function Home() {
               <h4>Sports</h4>
             </div>
           </Link>
-          <Link>
+          <Link to="/history">
             <div className={styles.box_icons}>
               <AiOutlineCamera className={styles.icons} />
               <h4>History</h4>

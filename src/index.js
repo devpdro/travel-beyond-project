@@ -8,6 +8,9 @@ import About from "./router/About";
 import Relax from "./router/Relax";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Cultural from "./router/Cultural";
+import Sports from "./router/Sports";
+import History from "./router/History";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +24,18 @@ const router = createBrowserRouter([
   {
     path: "/Relax",
     element: <Relax />,
+  },
+  {
+    path: "/Cultural",
+    element: <Cultural />,
+  },
+  {
+    path: "/Sports",
+    element: <Sports />,
+  },
+  {
+    path: "/History",
+    element: <History />,
   },
 ]);
 

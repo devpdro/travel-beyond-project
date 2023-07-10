@@ -4,7 +4,8 @@ import "./index.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import About from "./routes/About"
+import About from "./router/About";
+import Relax from "./router/Relax";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -12,12 +13,14 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: [
-      {
-        path: "/about",
-        element: <About />,
-      },
-    ],
+  },
+  {
+    path: "/About",
+    element: <About />,
+  },
+  {
+    path: "/Relax",
+    element: <Relax />,
   },
 ]);
 

@@ -11,16 +11,18 @@ import { Helmet } from "react-helmet";
 function App() {
   return (
     <>
-    <Helmet>
-      <title>Travel</title>
-    </Helmet>
-      <Navbar />
-      <Home />
-      <Destinations />
-      <Weekend />
-      <Beachs />
-      <Packages />
-      <Footer />
+      <>
+        <Helmet>
+          <title>Travel</title>
+        </Helmet>
+        <Navbar />
+        <Home />
+        <Destinations />
+        <Weekend />
+        <Beachs />
+        <Packages />
+        <Footer />
+      </>
     </>
   );
 }

@@ -2,19 +2,19 @@ import styles from "../styles/Destinations.module.scss";
 
 import db from "../db.json";
 
-const formatColor = (color) => {
-  if (["black", "red", "blue", "green"].includes(color)) {
-    return color;
-  }
-
-  if (/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/i.test(color)) {
-    return color;
-  }
-
-  return "#000000";
-};
-
 function Destinations() {
+  const formatColor = (color) => {
+    if (["black", "red", "blue", "green"].includes(color)) {
+      return color;
+    }
+
+    if (/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/i.test(color)) {
+      return color;
+    }
+
+    return "#000000";
+  };
+
   return (
     <section className={styles.container}>
       <div className={styles.text_box}>

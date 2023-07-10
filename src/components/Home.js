@@ -6,6 +6,8 @@ import { FaTheaterMasks } from "react-icons/fa";
 import { GiMountains } from "react-icons/gi";
 import { AiOutlineCamera } from "react-icons/ai";
 
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <header className={styles.container}>
@@ -16,10 +18,12 @@ function Home() {
           <input type="text" name="" id="" />
         </div>
         <div className={styles.container_icons}>
-          <div className={styles.box_icons}>
-            <BiDrink className={styles.icons} />
-            <h4>Relax</h4>
-          </div>
+          <Link to="/relax">
+            <div className={styles.box_icons}>
+              <BiDrink className={styles.icons} />
+              <h4>Relax</h4>
+            </div>
+          </Link>
           <div className={styles.box_icons}>
             <FaTheaterMasks className={styles.icons} />
             <h4>Cultural</h4>

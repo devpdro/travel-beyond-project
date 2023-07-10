@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "../styles/AboutPage.module.scss";
+import styles from "../../styles/AboutPage.module.scss";
 
 function AboutPage() {
   return (

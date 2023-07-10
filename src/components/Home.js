@@ -24,18 +24,24 @@ function Home() {
               <h4>Relax</h4>
             </div>
           </Link>
-          <div className={styles.box_icons}>
-            <FaTheaterMasks className={styles.icons} />
-            <h4>Cultural</h4>
-          </div>
-          <div className={styles.box_icons}>
-            <GiMountains className={styles.icons} />
-            <h4>Sports</h4>
-          </div>
-          <div className={styles.box_icons}>
-            <AiOutlineCamera className={styles.icons} />
-            <h4>History</h4>
-          </div>
+          <Link to="/cultural">
+            <div className={styles.box_icons}>
+              <FaTheaterMasks className={styles.icons} />
+              <h4>Cultural</h4>
+            </div>
+          </Link>
+          <Link to="/sports">
+            <div className={styles.box_icons}>
+              <GiMountains className={styles.icons} />
+              <h4>Sports</h4>
+            </div>
+          </Link>
+          <Link>
+            <div className={styles.box_icons}>
+              <AiOutlineCamera className={styles.icons} />
+              <h4>History</h4>
+            </div>
+          </Link>
         </div>
       </div>
     </header>

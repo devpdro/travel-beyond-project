@@ -1,8 +1,8 @@
 import React from "react";
 
-import styles from "../styles/About.module.scss";
+import styles from "../styles/AboutHeader.module.scss";
 
-function About() {
+function AboutHeader() {
   return (
     <header className={styles.container}>
       <h1>About</h1>
@@ -10,4 +10,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutHeader;

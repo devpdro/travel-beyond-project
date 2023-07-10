@@ -6,8 +6,8 @@ function Footer() {
       <div className={styles.box_container}>
         <div className={styles.box_send}>
           <div>
-            <p>Keep In Touch</p>
-            <h4>Travel With Us</h4>
+            <p>Mantenha Contato</p>
+            <h4>Viaje Conosco</h4>
           </div>
           <div className={styles.box_input}>
             <input className={styles.text} type="text" name="" id="" />
@@ -16,7 +16,7 @@ function Footer() {
         </div>
         <div className={styles.box_text}>
           <div className={styles.box_text_one}>
-            <h1>Travel</h1>
+            <h1>Faça já a sua viagem</h1>
             <p>
               Descubra o mundo com facilidade em nosso site de viagens. Encontre
               as melhores ofertas em voos, hotéis e pacotes turísticos. Navegue

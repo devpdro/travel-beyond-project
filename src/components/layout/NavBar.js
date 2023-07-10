@@ -7,15 +7,15 @@ function Navbar() {
     <nav className={styles.navbar}>
       <div>
         <Link to="/">
-          <h1>Travel</h1>
+          <h1>Expeditions</h1>
         </Link>
       </div>
       <ul>
         <li>
-          <a href="/">Início</a>
+          <Link to="/">Início</Link>
         </li>
         <li>
-          <a href="/about">Sobre</a>
+          <Link to="/about">Sobre</Link>
         </li>
       </ul>
     </nav>

@@ -1,6 +1,8 @@
+@import "../../index.scss";
+
 .container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGtlbnlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    url(../../assets/banner.jpg);
   height: 100vh;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
@@ -9,11 +11,14 @@
   place-items: center;
   .text_container {
     text-align: center;
-    color: #fff;
+    color: var(--cor-primary);
     h1 {
       font-weight: 900;
       font-size: 2.4rem;
       margin-bottom: 0.5rem;
+      span {
+        border-bottom: 5px solid var(--cor-quinary);
+      }
     }
     p {
       font-size: 1.1rem;
@@ -22,12 +27,24 @@
       font-weight: 500;
     }
     div {
+      position: relative;
+      .search {
+        position: absolute;
+        right: 70px;
+        bottom: 1px;
+        font-size: 2rem;
+        color: black;
+        &:hover{
+          @include text_hover
+        }
+      }
       input {
         width: 78%;
         height: 33px;
         border-radius: 15px;
         outline: none;
         border: none;
+        font-size: 1.1rem;
         padding-left: 18px;
       }
     }
@@ -36,19 +53,26 @@
       justify-content: space-around;
       margin-top: 3.5rem;
       padding: 0 1rem 0 1rem;
-      .box_icons {
-        background-color: #00000077;
-        color: #ffffffa2;
-        padding: 1.5rem 0.5rem 0 0.5rem;
-        width: 80px;
-        border-radius: 2px;
-        .icons {
-          width: 30px;
-          height: 30px;
-          margin-bottom: 0;
-        }
-        h4 {
-          margin-top: 0.5rem;
+      a {
+        text-decoration: none;
+        .box_icons {
+          background-color: #00000077;
+          color: var(--cor-primary);
+          padding: 1.5rem 0.5rem 0 0.5rem;
+          width: 80px;
+          border-radius: 2px;
+          &:hover {
+            @include text_hover;
+          }
+          .icons {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 0;
+          }
+          h4 {
+            margin-top: 0.5rem;
+            padding-bottom: 0.9rem;
+          }
         }
       }
     }

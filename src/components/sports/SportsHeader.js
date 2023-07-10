@@ -4,7 +4,7 @@ function SportsHeader() {
   return (
     <div>
       <header className={styles.container}>
-        <h1>Sports</h1>
+        <h1>Esportes</h1>
       </header>
     </div>
   );

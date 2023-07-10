@@ -4,7 +4,7 @@ function HistoryHeader() {
   return (
     <div>
       <header className={styles.container}>
-        <h1>History</h1>
+        <h1>História</h1>
       </header>
     </div>
   );

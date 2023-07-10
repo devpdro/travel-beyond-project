@@ -1,3 +1,5 @@
+@import "../../index.scss";
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -6,12 +8,19 @@
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.356);
   width: 100%;
-  border-bottom: 1px solid #ffffff36;
-  color: #fff;
+  border-bottom: 1px solid var(--cor-septenary);
+  color: var(--cor-primary);
   div {
-    h1 {
-      font-size: 2rem;
-      padding-left: 4rem;
+    a {
+      color: var(--cor-primary);
+      text-decoration: none;
+      &:hover {
+        @include text_hover
+      }
+      h1 {
+        font-size: 2rem;
+        padding-left: 4rem;
+      }
     }
   }
   ul {
@@ -22,8 +31,11 @@
       padding-right: 1.5rem;
       a {
         text-decoration: none;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: #fff;
+        &:hover {
+          @include text_hover
+        }
       }
     }
   }

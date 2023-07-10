@@ -6,3 +6,21 @@ body {
   box-sizing: border-box;
   font-family: "Poppins";
 }
+
+:root {
+  --cor-primary: #fff;
+  --cor-secondary: #000;
+  --cor-tertiary: #A07B5B;
+  --cor-quaternary: #48bf91;
+  --cor-quinary: #db8a73;
+  --cor-senary: #53bad5;
+  --cor-septenary: #ffffff36;
+  --cor-octonary: #555;
+  /*--cor-nonary: #008000;
+  --cor-denary: #800080;*/
+}
+
+@mixin text_hover() {
+  color: var(--cor-quinary);
+  transition: 0.3s ease;
+}

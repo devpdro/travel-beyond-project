@@ -5,6 +5,7 @@ import { BiDrink } from "react-icons/bi";
 import { FaTheaterMasks } from "react-icons/fa";
 import { GiMountains } from "react-icons/gi";
 import { AiOutlineCamera } from "react-icons/ai";
+import { BiSearch } from "react-icons/bi";
 
 import { Link } from "react-router-dom";
 
@@ -12,9 +13,12 @@ function Home() {
   return (
     <header className={styles.container}>
       <div className={styles.text_container}>
-        <h1>Pesquisar tour no próximo Feriado</h1>
+        <h1>
+          Pesquisar tour no próximo <span>Feriado</span>
+        </h1>
         <p>Confira nossas melhores promoções</p>
         <div>
+          <BiSearch className={styles.search} />
           <input type="text" name="" id="" />
         </div>
         <div className={styles.container_icons}>

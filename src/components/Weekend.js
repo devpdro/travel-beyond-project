@@ -7,7 +7,7 @@ function Weekend() {
         <h1>
           Suas Próximas <span>Férias.</span>
         </h1>
-        <input type="submit" value="Ver Todos os Destinos" />
+        <input type="submit" value="Ver Destinos" />
       </div>
     </section>
   );

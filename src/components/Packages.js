@@ -6,9 +6,9 @@ function Packages() {
   return (
     <section className={styles.container}>
       <div className={styles.text_box}>
-        <h4>Nossa proposta</h4>
+        <h4>Promoções</h4>
         <h1>
-          Nossos <span>destinos</span>
+          Nossos <span>Pacotes</span>
         </h1>
       </div>
       <div className={styles.container_images}>

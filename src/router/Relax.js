@@ -1,8 +1,8 @@
 import React from "react";
 import BoxPackages from "../components/BoxPackages";
-import Footer from "../components/Footer";
-import RelaxHeader from "../components/RelaxHeader";
-import Navbar from "../components/NavBar";
+import Footer from "../components/layout/Footer";
+import RelaxHeader from "../components/relax/RelaxHeader";
+import Navbar from "../components/layout/NavBar";
 
 function Relax() {
   return (

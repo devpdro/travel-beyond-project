@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "../../styles/AboutHeader.module.scss";
+import styles from "../../styles/about/AboutHeader.module.scss";
 
 function AboutHeader() {
   return (

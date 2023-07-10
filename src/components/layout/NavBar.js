@@ -1,4 +1,4 @@
-import styles from "../styles/NavBar.module.scss";
+import styles from "../../styles/layout/NavBar.module.scss";
 
 import { Link } from "react-router-dom";
 

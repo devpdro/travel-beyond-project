@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "../styles/RelaxHeader.module.scss";
+import styles from "../../styles/relax/RelaxHeader.module.scss";
 
 function RelaxHeader() {
   return (

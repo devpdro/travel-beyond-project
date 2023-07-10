@@ -1,5 +1,5 @@
-import Navbar from "../components/NavBar";
-import Footer from "../components/Footer";
+import Navbar from "../components/layout/NavBar";
+import Footer from "../components/layout/Footer";
 import BoxPackages from "../components/BoxPackages";
 import HistoryHeader from "../components/history/HistoryHeader";
 

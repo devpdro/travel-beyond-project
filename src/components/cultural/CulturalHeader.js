@@ -1,5 +1,4 @@
-
-import styles from "../../styles/cultural/CulturalHeader.module.scss"
+import styles from "../../styles/cultural/CulturalHeader.module.scss";
 
 function CulturalHeader() {
   return (

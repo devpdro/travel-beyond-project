@@ -59,3 +59,14 @@
     }
   }
 }
+@media (max-width: 1000px) {
+  .text_box {
+    margin-left: 2rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box_img {
+    display: none;
+  }
+}

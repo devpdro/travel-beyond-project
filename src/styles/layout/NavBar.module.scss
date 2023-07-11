@@ -15,7 +15,7 @@
       color: var(--cor-primary);
       text-decoration: none;
       &:hover {
-        @include text_hover
+        @include text_hover;
       }
       h1 {
         font-size: 2rem;
@@ -34,7 +34,7 @@
         font-size: 1.3rem;
         color: #fff;
         &:hover {
-          @include text_hover
+          @include text_hover;
         }
       }
     }

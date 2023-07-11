@@ -7,7 +7,7 @@ function Navbar() {
     <nav className={styles.navbar}>
       <div>
         <Link to="/">
-          <h1>Viagem</h1>
+          <h1>TravelBeyond</h1>
         </Link>
       </div>
       <ul>

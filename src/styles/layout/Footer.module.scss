@@ -109,3 +109,15 @@
     }
   }
 }
+@media (max-width: 1280px) {
+  .box_send {
+    flex-direction: column;
+    margin-bottom: 1.7rem !important;
+  }
+  .box_text_two {
+    display: none;
+  }
+  .box_text_three {
+    display: none;
+  }
+}

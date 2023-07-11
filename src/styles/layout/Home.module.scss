@@ -33,10 +33,10 @@
         right: 70px;
         bottom: 1px;
         font-size: 2rem;
-        color: black;
+        color: #000;
         cursor: pointer;
-        &:hover{
-          @include text_hover
+        &:hover {
+          @include text_hover;
         }
       }
       input {

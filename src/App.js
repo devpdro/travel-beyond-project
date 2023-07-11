@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Travel</title>
+        <title>TravelBeyond</title>
       </Helmet>
       <Navbar />
       <Home />

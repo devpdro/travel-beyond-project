@@ -10,8 +10,10 @@ function Footer() {
             <h4>Viaje Conosco</h4>
           </div>
           <div className={styles.box_input}>
-            <input className={styles.text} type="text" name="" id="" />
-            <input className={styles.submit} type="submit" value="Send" />
+            <form>
+              <input className={styles.text} type="text" name="" id="" required minLength={3} />
+              <input className={styles.submit} type="submit" value="Send" />
+            </form>
           </div>
         </div>
         <div className={styles.box_text}>

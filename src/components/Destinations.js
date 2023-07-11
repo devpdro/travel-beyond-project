@@ -2,6 +2,8 @@ import styles from "../styles/Destinations.module.scss";
 
 import db from "../db.json";
 
+import { FaTheaterMasks } from "react-icons/fa";
+
 function Destinations() {
   const formatColor = (color) => {
     if (["black", "red", "blue", "green"].includes(color)) {
@@ -14,7 +16,6 @@ function Destinations() {
 
     return "#000000";
   };
-
   return (
     <section className={styles.container}>
       <div className={styles.text_box}>
@@ -27,10 +28,14 @@ function Destinations() {
         {db.destinations.map((item) => (
           <div key={item.id} className={styles.images_box}>
             <div
+              data-text-beforte={item.hoverTitle}
+              data-text-after={item.packages}
+              className={styles.box}
               style={{
                 backgroundColor: formatColor(item.backgroundColor),
               }}
             >
+              <FaTheaterMasks className={styles.icon} />
               <img
                 style={{
                   opacity: item.opacity,

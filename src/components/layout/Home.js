@@ -25,7 +25,7 @@ function Home() {
           <Link to="/relax">
             <div className={styles.box_icons}>
               <BiDrink className={styles.icons} />
-              <h4>Relax</h4>
+              <h4>Relaxar</h4>
             </div>
           </Link>
           <Link to="/cultural">
@@ -37,13 +37,13 @@ function Home() {
           <Link to="/sports">
             <div className={styles.box_icons}>
               <GiMountains className={styles.icons} />
-              <h4>Sports</h4>
+              <h4>Esportes</h4>
             </div>
           </Link>
           <Link to="/history">
             <div className={styles.box_icons}>
               <AiOutlineCamera className={styles.icons} />
-              <h4>History</h4>
+              <h4>História</h4>
             </div>
           </Link>
         </div>

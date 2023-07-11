@@ -2,6 +2,8 @@ import styles from "../styles/Packages.module.scss";
 
 import db from "../db.json";
 
+import { PiMapPinDuotone } from "react-icons/pi";
+
 function Packages() {
   return (
     <section className={styles.container}>
@@ -20,7 +22,10 @@ function Packages() {
                 alt="Imagens mostrando os lugares dos pacotes de viagens"
               />
               <h3>{item.state}</h3>
-              <p>{item.country}</p>
+              <p>
+                <PiMapPinDuotone className={styles.icon} />
+                {item.country}
+              </p>
               <h4>
                 {item.type}
                 <span>{item.price}</span>

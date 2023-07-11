@@ -2,8 +2,8 @@
   "destinations": [
     {
       "id": 1,
-      "Title": "Uganda Tours",
-      "buttonText": "View Destination",
+      "hoverTitle": "Uganda Tours",
+      "buttonText": "Detalhes",
       "cardHeading": "Uganda",
       "packages": "6 Pacotes",
       "image": "https://images.unsplash.com/photo-1588384244626-484b69024d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHVnYW5kYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "hoverTitle": "Kenya Tours",
-      "buttonText": "View Destination",
+      "buttonText": "Detalhes",
       "cardHeading": "Kenya",
       "packages": "5 Pacotes",
       "image": "https://images.unsplash.com/photo-1579005318686-5a86bbb3bf03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGtlbnlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -22,8 +22,8 @@
     },
     {
       "id": 3,
-      "Title": "Tanzania Tours",
-      "buttonText": "View Destination",
+      "hoverTitle": "Tanzania Tours",
+      "buttonText": "Detalhes",
       "cardHeading": "Tanzania",
       "packages": "2 Pacotes",
       "image": "https://images.unsplash.com/photo-1631646109248-a7264aae1790?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8a2lsaW1hbmphcm98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
@@ -32,8 +32,8 @@
     },
     {
       "id": 4,
-      "Title": "Rwanda Tours",
-      "buttonText": "View Destination",
+      "hoverTitle": "Rwanda Tours",
+      "buttonText": "Detalhes",
       "cardHeading": "Rwanda",
       "packages": "3 Pacotes",
       "image": "https://images.unsplash.com/photo-1579518874869-1ad294d2596f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cndhbmRhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -42,8 +42,8 @@
     },
     {
       "id": 5,
-      "Title": "RDC Tours",
-      "buttonText": "View Destination",
+      "hoverTitle": "RDC Tours",
+      "buttonText": "Detalhes",
       "cardHeading": "Congo",
       "packages": "3 Pacotes",
       "image": "https://cdn.thecrazytourist.com/wp-content/uploads/2019/04/ccimage-shutterstock_694704898.jpg",
@@ -92,17 +92,17 @@
       "bg": "#3C92B6"
     },
     {
-      "id": 4,
-      "img": "https://images.unsplash.com/photo-1575999502951-4ab25b5ca889?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8WmFuemliYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-      "state": "Zanzibar",
-      "country": "Tanzania",
-      "type": "Sport",
-      "price": "400 $",
-      "paragraph": "sda",
-      "color": "#3C92B6",
+      "id": 1,
+      "img": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGtlbnlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "state": "Parque Nacional dos Vulcões",
+      "country": "Rwanda",
+      "type": "Parque",
+      "price": "1087.00 $",
+      "paragraph": "Descubra o poder dos vulcões no Parque Nacional dos Vulcões.",
+      "color": "#F19B6B",
       "text": "Details",
       "textColor": "#fff",
-      "bg": "#3C92B6"
+      "bg": "#F19B6B"
     },
     {
       "id": 5,

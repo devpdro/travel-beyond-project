@@ -56,4 +56,6 @@ npm start
   
 ```bash
 Local: http://localhost:3000
+
+Made with ❤️ by Victor Hugo 👋
 ```
